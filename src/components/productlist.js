@@ -2,13 +2,13 @@ import React from "react";
 import '../index.css'
 import { Button } from 'react-bootstrap';
 function ProductList(props) {   
-    const {data}=props
+    const {data}=props;
     return (
         <div className="cards">
             {data.map((item, i) => {
                 return (
-                   <div className="card">
-                     <div key={i} className="card-columns">
+                   <div key={i} className="card">
+                     <div className="card-columns">
                             <img className="image" src={item.image} alt="Card image cap" />
                             <div className="card-body">
                                 <h5 className="card-title">{item.title}</h5>

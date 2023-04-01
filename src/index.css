@@ -67,3 +67,16 @@ code {
   justify-content: space-between;
   padding: 10px;
 }
+
+.Pagination{
+  width: 20%;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.butttonss{
+  display: flex;
+  gap:10px;
+  width: 40%;
+  margin: auto;
+}
