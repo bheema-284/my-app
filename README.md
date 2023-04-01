@@ -1,9 +1,9 @@
-# I have impimented search and filter functionality for simple card
+# I have implemented search and filter functionality for simple card
 ## linK:  https://gilded-bubblegum-90069e.netlify.app
 
 #### Teck stack 
 1. react,
-2. bootstrap
+2. bootstrap,
 3. saas,
 4. JavaScript,
 5. css3,
