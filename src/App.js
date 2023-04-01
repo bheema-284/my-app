@@ -33,7 +33,7 @@ function App() {
   const pagination = (number) => {
     setPageIndex(number)
   }
- 
+
   return (
     <div className="App">
       <div>

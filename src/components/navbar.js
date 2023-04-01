@@ -4,7 +4,7 @@ import '../index.css'
 
 
 function NavBar(props) {
-    const { onChange ,onFilterChange} = props
+    const { onChange, onFilterChange } = props
     return (
         <div className='Navbar'>
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -16,9 +16,9 @@ function NavBar(props) {
                     <form className="formsdd">
                         <input onChange={onChange} className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
                         <div className='butttonss'>
-                            <button onClick={()=>onFilterChange("jewelery")} type="button" className="btn btn-secondary">Jewellery</button>
-                            <button onClick={()=>onFilterChange("clothing")} type="button" className="btn btn-warning">Cloths</button>
-                            <button onClick={()=>onFilterChange("electronics")} type="button" className="btn btn-info">Eletronics</button>
+                            <button onClick={() => onFilterChange("jewelery")} type="button" className="btn btn-secondary">Jewellery</button>
+                            <button onClick={() => onFilterChange("clothing")} type="button" className="btn btn-warning">Cloths</button>
+                            <button onClick={() => onFilterChange("electronics")} type="button" className="btn btn-info">Eletronics</button>
                         </div>
                     </form>
                 </div>
